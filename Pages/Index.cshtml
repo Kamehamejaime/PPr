@@ -1,0 +1,188 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container-fluid mx-0 px-0">
+    <div class="d-flex justify-content-center align-items-center flex-column">
+        <div class="d-flex justify-content-center align-items-center align-content-center my-4 mx-0 px-4">
+            <p class="m-1 display-5 fw-bold">
+                Analista Programador, Desarrollador Backend
+            </p>
+
+        </div>
+        <div class="d-flex align-items-center h3 m-1">
+            <p class="m-1 text-muted">
+                Me apasiona convertir ideas en soluciones y disfrutar cada paso del proceso.
+            </p>
+
+        </div>
+        <div class=" container d-flex justify-content-center align-items-center mt-5">
+
+                <img class="img-fluid" src="~/img/avatar.svg" alt="avatar" width="400" height="400" />
+
+        </div>
+        <div class=" container d-flex justify-content-center align-items-center mt-5">
+            <img src="~/img/footersection.png" class="img-fluid" alt="footer" width="1000" />
+
+        </div>
+    </div>
+
+
+    @* Presentación *@
+    <div class="container-fluid" id="presentation">
+            <div class="col-auto align-items-center h5 m-1 text-center">
+                <p class="display-6 fw-bold">
+                    Soy Jaime Catalán, un gusto saludarte
+                </p>
+                <p class="m-1 fw-bold">
+                    Analista Programador del IP Santo Tomás.
+                </p>
+                <p class="m-1 fw-bold">
+                    Realicé mi práctica profesional en la empresa "GRUPO INCUBO"
+                    donde realicé las labores de Desarrollo de Web API en Asp.Net Core.
+                </p>
+                <p class="m-1 fw-bold">
+                    Apoyo en frontend utilizando HTML, CSS, BOOTSTRAP.
+
+                </p>
+                <p class="m-1 fw-bold">
+                    Me especializo en C# pero tengo conocimientos en otros lenguajes como Java o Python.
+
+                </p>
+                <p class="m-1 fw-bold">
+
+                    Mis habilidades en programación han ido mejorando poco a poco
+                    y espero llegar a convertirme en un gran profesional en el area
+                </p>
+
+            </div>
+
+        
+    </div>
+    <div class="container">
+        
+    <div class="card-group mh-100" id="skills">
+
+            <div class="card rounded-start">
+                <svg class="card-img ms-0 mt-5" xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#7863FF" class="bi bi-code-square" viewBox="0 0 16 16">
+                    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                    <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0" />
+                </svg>
+                
+            <div class="card-body">
+                <h5 class="card-title fw-bolder text-center fs-4 mt-lg-5">Backend</h5>
+                <p class="card-text text-center text-lg-center my-lg-5 fw-bold mx-5">Me gusta el código limpio, mantenible y que los demás puedan entenderlo sin problemas.</p>
+                    <p class="card-text text-center text-lg-center mt-lg-5 fw-bold mx-5" style="color: #7863FF">Conocimientos.</p>
+
+                    <ul class="list-unstyled text-center">
+                        <li class="list-item fw-bold m-1">POO.</li>
+                        <li class="list-item fw-bold m-1">C# Medio-Avanzado.</li>
+                        <li class="list-item fw-bold m-1">MVC.</li>
+                        <li class="list-item fw-bold m-1">ASP.NET Web Application (.Net Framework).</li>
+                        <li class="list-item fw-bold m-1">ASP.NET Core Web API.</li>
+                        <li class="list-item fw-bold m-1">Java.</li>
+                        <li class="list-item fw-bold m-1">Python.</li>
+                        <li class="list-item fw-bold m-1">SQL.</li>
+                        <li class="list-item fw-bold m-1">MySql.</li>
+
+                    </ul>
+
+                    <p class="card-text text-center text-lg-center mt-lg-5 fw-bold mx-5" style="color: #7863FF">Herramientas.</p>
+
+                    <ul class="list-unstyled text-center mb-5">
+                        <li class="list-item fw-bold">Visual Studio 2017+.</li>
+                        <li class="list-item fw-bold">VS Code</li>
+                        <li class="list-item fw-bold">NetBeans</li>
+                        <li class="list-item fw-bold">SQL Server</li>
+                       
+                        
+                    </ul>
+
+               
+            </div>
+        </div>
+            <div class="card">
+                <svg class="card-img ms-0 mt-5" xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#7863FF" class="bi bi-pc-display" viewBox="0 0 16 16">
+                    <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z" />
+                </svg>
+                
+
+                <div class="card-body">
+                    <h5 class="card-title fw-bolder text-center fs-4 mt-lg-5">Frontend</h5>
+                    <p class="card-text text-center text-lg-center my-lg-5 fw-bold mx-5">El diseño tambien importa, una buena presentación demuestra tus capacidades</p>
+                    <p class="card-text text-center text-lg-center mt-lg-5 fw-bold mx-5" style="color: #7863FF">Conocimientos.</p>
+
+                    <ul class="list-unstyled text-center mb-lg-5">
+                        <li class="list-item fw-bold">HTML5.</li>
+                        <li class="list-item fw-bold">CSS3.</li>
+                        <li class="list-item fw-bold">JavaScript.</li>
+                        <li class="list-item fw-bold">Razor Pages.</li>
+
+                    </ul>
+
+                    <p class="card-text text-center text-lg-center mt-lg-5 fw-bold mx-5" style="color: #7863FF">Herramientas.</p>
+
+                    <ul class="list-unstyled text-center my-5">
+                        <li class="list-item fw-bold">Visual Studio 2017+.</li>
+                        <li class="list-item fw-bold">VS Code</li>
+                        <li class="list-item fw-bold">Bootstrap</li>
+                        <li class="list-item fw-bold">Bulma Css</li>
+                      
+
+                    </ul>
+
+                </div>
+                    
+            </div>
+            <div class="card rounded-end">
+                <svg class="card-img ms-0 mt-5" xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#7863FF" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                    <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                    <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                </svg>
+                
+
+                <div class="card-body">
+                    <h5 class="card-title fw-bolder text-center fs-4 mt-lg-5">Estudios</h5>
+                    <p class="card-text text-center text-lg-center my-lg-5 fw-bold mx-5">Estudié en IP Santo Tomás, en donde aprendí mucho sobre POO y el desarrollo web.</p>
+                    <p class="card-text text-center text-lg-center mt-lg-5 fw-bold mx-5" style="color: #7863FF">Año de egreso.</p>
+
+                    <ul class="list-unstyled text-center">
+                        <li class="list-item fw-bold">2024.</li>
+                        
+                    </ul>
+
+                    <p class="card-text text-center text-lg-center mt-lg-5 fw-bold mx-5" style="color: #7863FF">Práctica laboral.</p>
+
+                    <ul class="list-unstyled text-center mb-5">
+                        <li class="list-item fw-bold">Grupo Incubo.</li>
+                        
+                    </ul>
+
+                    <p class="card-text text-center text-lg-center mt-lg-5 fw-bold mx-5" style="color: #7863FF">Empleo actual.</p>
+
+                    <ul class="list-unstyled text-center mb-5">
+                        <li class="list-item fw-bold">Junior IT Developer en Grupo Incubo.</li>
+
+                    </ul>
+
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <div class="container-fluid mt-lg-5 rounded-5" id="contact">
+        <div class="col-auto align-items-center h5 m-1 text-center">
+           
+           
+            
+        </div>
+
+
+    </div>
+    
+
+
+
+</div>
